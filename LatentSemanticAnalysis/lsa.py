@@ -101,26 +101,4 @@ for i , comp in enumerate(lsa.components_):
     for term in sortedterms[0:10]:
         print(term[0])
     print(' ')
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   
