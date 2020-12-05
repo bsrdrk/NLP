@@ -46,7 +46,7 @@ if __name__ == '__main__':
             
             for i, analysis in enumerate(analysis, start=1):
                 lemma.append(f'{str(analysis.getLemmas()[0])}')
-                lemma_dict[f'{str(analysis.getLemmas()[0])}'] = pos_dict.get(f'{str(analysis.getLemmas()[0])}' , 0.0) + 1.0 
+                lemma_dict[f'{str(analysis.getLemmas()[0])}'] = lemma_dict.get(f'{str(analysis.getLemmas()[0])}' , 0.0) + 1.0 
                 lemmas_list.append(f'{str(analysis.getLemmas()[0])}')
             #print(f'\nFull sentence with POS tags: {" ".join(lemma)}')
             lemma_sentence.append(f'{" ".join(lemma)}')
